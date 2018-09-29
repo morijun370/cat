@@ -1,0 +1,309 @@
+@charset "UTF-8";
+
+body{
+　box-sizing:border-box;
+  margin:0;
+  font-size:40px;
+}
+
+.header{
+  width:auto;
+}
+
+.header_nav{
+  max-width:980px
+  height:75px;
+  position: fixed;
+  top:0;
+  left:0;
+  margin:0;
+  width:100%;
+  background-color: white;
+}
+
+.CAT_rogo{
+  padding-left: 18%;
+}
+
+.nav-item{
+  float:right;
+  font-family:Yu Gothic,Medium;
+  font-size:0;
+  padding-right: 18%;
+  margin-top: 10px;
+}
+
+.nav-item li{
+  display:inline-block;
+  font-size:18px;
+  padding:5px;
+}
+
+.main_img{
+  width:100%;
+  background-size: cover;
+}
+
+.main_ttl{
+  margin-top:70px;
+  margin-bottom: 60px;
+  font-family:Yu Gothic,bold;
+}
+
+.cat_ttl1{
+  font-family:Yu Gothic,bold;
+  padding-left: 18%;
+  padding-top:60px;
+  font-size:1em;
+}
+
+.section_sub{
+  margin-left:18%;
+  font-family:Yu Gothic,Medium;
+  margin-tOP:100px;
+  font-size:0.6em;
+}
+
+.CAT_first{
+  background-color: #FCF6F2;
+}
+
+.clearfix::after{
+  content:'';
+  display:block;
+  clear:both;
+}
+
+.cat_ttl2{
+  font-family:Yu Gothic,bold;
+  text-align: center;
+  padding-top:80px;
+  font-size:1em;
+}
+
+.content_first{
+  margin-top: 100px;
+  font-size:0.5em;
+}
+
+.content_first img{
+  margin-left:18%;
+}
+
+.content_first_nav{
+  float:right;
+  margin-right: 18%;
+  font-family:Yu Gothic,Medium;
+}
+
+.content_second{
+  margin-top:100px;
+  font-size:0.5em;
+}
+
+.content_second img{
+  float:right;
+  margin-right:18%;
+}
+
+.content_second_nav{
+  margin-left: 18%;
+  font-family:Yu Gothic,Medium;
+}
+
+
+.content_third{
+  margin-top:100px;
+  margin-bottom:100px;
+  font-size:0.5em;
+}
+
+.content_third img{
+  margin-left:18%;
+}
+
+.content_third_nav{
+  float:right;
+  margin-right:18%;
+  margin-bottom: 130px;
+  font-family:Yu Gothic,Medium;
+}
+
+.cat_ttl3{
+  font-family:Yu Gothic,bold;
+  text-align: center;
+  font-size:1em;
+}
+
+.content_fourth{
+  margin-top:80px;
+  float:left;
+  width:450px;
+  margin-left: 18%;
+}
+
+.content_fourth img{
+  display:block;
+  width: 100%;
+}
+
+.content_fourth_nav{
+  margin-top: 50px;
+  font-size:0.4em;
+  font-family:Yu Gothic,Medium;
+}
+
+.content_fifth{
+  margin-top:80px;
+  width:450px;
+  float:right;
+  margin-right:18%;
+}
+
+.content_fifth img{
+ display:block;
+ width:100%;
+}
+
+.content_fifth_nav{
+  margin-top:50px;
+  font-size:0.4em;
+  margin-bottom: 100px;
+  font-family:Yu Gothic,Medium;
+}
+
+.content_sixth{
+  position: relative;
+}
+
+.content_sixth img{
+  width:100%;
+  background-size: cover;
+  padding:0;
+  margin:0;
+  z-index: 10;
+}
+
+.content_sixth span{
+  position: absolute;
+  width: 450px;
+  height:450px;
+  top: 900px;
+  right: 0px;
+  font-size:0.5em;
+  font-family: Yu Gothic,bold;
+  z-index: 20;
+  background-color:rgba(255,255,255,0.5);
+  padding: 85px 75px 65px;
+  margin-right: 18%;
+}
+
+.cat_ttl4{
+  font-family:Yu Gothic,bold;
+  text-align: center;
+  font-size:1em;
+  margin: 70px;
+}
+
+.scroll-list{
+  margin-left: 18%;
+  margin-right: 18%;
+  margin-bottom:100px;
+  padding: 0;
+  font-size:0.4em;
+  list-style-type: none;
+  width:980px;
+}
+
+.scroll-item{
+  color: #000;/*文字色*/
+  padding: 0.5em 0;/*上下の余白*/
+  border-top: solid 1px #000;/*上線*/
+  /*border-bottom: solid 1px #364e96;下線*/
+}
+
+.scroll-item-last{
+  color: #000;/*文字色*/
+  padding: 0.5em 0;/*上下の余白*/
+  border-top:solid 1px #000;
+  border-bottom:solid 1px #000;
+}
+
+.date{
+  font-family:Yu Gothic,bold;
+  width:19%;
+}
+
+.category{
+  font-family:Yu Gothic,bold;
+  color: #AD2727;/*文字色*/
+  border: solid 1px #AD2727;/*線色*/
+  padding: 4px 26px;/*文字周りの余白*/
+  margin-left: 14px;
+  margin-right: 37px;
+  width:8%;
+}
+
+.title{
+  font-family:Yu Gothic,Medium;
+  width:73%;
+}
+
+.footer_list{
+  color:white;
+  font-size:0.4em;
+  background-color:#8E8E8E;
+}
+
+.footer_items{
+  margin-left:18%;
+}
+
+.footer_item{
+  display:inline-block;
+  margin-right:50px;
+  margin-bottom:100px;
+}
+
+.list_ttl{
+  padding-top:100px;
+  padding-bottom:10px;
+  width:300px;
+  font-family:Yu Gothic,bold;
+  border-bottom: solid 1px white;
+}
+
+.list_ttl_la{
+  padding-top:100px;
+  padding-bottom:10px;
+  width:270px;
+  font-family:Yu Gothic,bold;
+  border-bottom: solid 1px white;
+}
+
+.item{
+  font-family:Yu Gothic,Medium;
+  list-style-type: none;
+  padding-top:29px;
+  padding-left:0px;
+}
+
+.footer_log{
+  background-color: #6A6A6A;
+  color:white;
+  height:60px;
+}
+
+.footer_log img{
+  float:left;
+  margin-left:18%;
+  padding-top:18px;
+}
+
+.footer_ttl{
+  font-size:0.3em;
+  float:right;
+  margin-right:18%;
+  padding-top:24px;
+  margin-top:0;
+}
